@@ -1,0 +1,3 @@
+C:/cl/c++/share/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/cl/c++/share/cmake-build-debug/CMakeFiles/share.dir
+C:/cl/c++/share/cmake-build-debug/CMakeFiles/rebuild_cache.dir
