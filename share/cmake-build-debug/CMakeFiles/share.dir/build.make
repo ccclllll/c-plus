@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\cl\c++\share
+CMAKE_SOURCE_DIR = F:\workspace\github\c-plus\share
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\cl\c++\share\cmake-build-debug
+CMAKE_BINARY_DIR = F:\workspace\github\c-plus\share\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/share.dir/depend.make
@@ -58,90 +58,105 @@ include CMakeFiles/share.dir/flags.make
 
 CMakeFiles/share.dir/main.cpp.obj: CMakeFiles/share.dir/flags.make
 CMakeFiles/share.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/share.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\main.cpp.obj -c C:\cl\c++\share\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/share.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\main.cpp.obj -c F:\workspace\github\c-plus\share\main.cpp
 
 CMakeFiles/share.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cl\c++\share\main.cpp > CMakeFiles\share.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\main.cpp > CMakeFiles\share.dir\main.cpp.i
 
 CMakeFiles/share.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cl\c++\share\main.cpp -o CMakeFiles\share.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\main.cpp -o CMakeFiles\share.dir\main.cpp.s
 
-CMakeFiles/share.dir/MyUtils.cpp.obj: CMakeFiles/share.dir/flags.make
-CMakeFiles/share.dir/MyUtils.cpp.obj: ../MyUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/share.dir/MyUtils.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\MyUtils.cpp.obj -c C:\cl\c++\share\MyUtils.cpp
+CMakeFiles/share.dir/utils/MyUtils.cpp.obj: CMakeFiles/share.dir/flags.make
+CMakeFiles/share.dir/utils/MyUtils.cpp.obj: ../utils/MyUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/share.dir/utils/MyUtils.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\utils\MyUtils.cpp.obj -c F:\workspace\github\c-plus\share\utils\MyUtils.cpp
 
-CMakeFiles/share.dir/MyUtils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/MyUtils.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cl\c++\share\MyUtils.cpp > CMakeFiles\share.dir\MyUtils.cpp.i
+CMakeFiles/share.dir/utils/MyUtils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/utils/MyUtils.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\utils\MyUtils.cpp > CMakeFiles\share.dir\utils\MyUtils.cpp.i
 
-CMakeFiles/share.dir/MyUtils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/MyUtils.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cl\c++\share\MyUtils.cpp -o CMakeFiles\share.dir\MyUtils.cpp.s
+CMakeFiles/share.dir/utils/MyUtils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/utils/MyUtils.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\utils\MyUtils.cpp -o CMakeFiles\share.dir\utils\MyUtils.cpp.s
 
-CMakeFiles/share.dir/share.cpp.obj: CMakeFiles/share.dir/flags.make
-CMakeFiles/share.dir/share.cpp.obj: ../share.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/share.dir/share.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\share.cpp.obj -c C:\cl\c++\share\share.cpp
+CMakeFiles/share.dir/domain/share.cpp.obj: CMakeFiles/share.dir/flags.make
+CMakeFiles/share.dir/domain/share.cpp.obj: ../domain/share.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/share.dir/domain/share.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\domain\share.cpp.obj -c F:\workspace\github\c-plus\share\domain\share.cpp
 
-CMakeFiles/share.dir/share.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/share.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cl\c++\share\share.cpp > CMakeFiles\share.dir\share.cpp.i
+CMakeFiles/share.dir/domain/share.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/domain/share.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\domain\share.cpp > CMakeFiles\share.dir\domain\share.cpp.i
 
-CMakeFiles/share.dir/share.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/share.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cl\c++\share\share.cpp -o CMakeFiles\share.dir\share.cpp.s
+CMakeFiles/share.dir/domain/share.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/domain/share.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\domain\share.cpp -o CMakeFiles\share.dir\domain\share.cpp.s
 
-CMakeFiles/share.dir/industry.cpp.obj: CMakeFiles/share.dir/flags.make
-CMakeFiles/share.dir/industry.cpp.obj: ../industry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/share.dir/industry.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\industry.cpp.obj -c C:\cl\c++\share\industry.cpp
+CMakeFiles/share.dir/domain/industry.cpp.obj: CMakeFiles/share.dir/flags.make
+CMakeFiles/share.dir/domain/industry.cpp.obj: ../domain/industry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/share.dir/domain/industry.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\domain\industry.cpp.obj -c F:\workspace\github\c-plus\share\domain\industry.cpp
 
-CMakeFiles/share.dir/industry.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/industry.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cl\c++\share\industry.cpp > CMakeFiles\share.dir\industry.cpp.i
+CMakeFiles/share.dir/domain/industry.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/domain/industry.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\domain\industry.cpp > CMakeFiles\share.dir\domain\industry.cpp.i
 
-CMakeFiles/share.dir/industry.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/industry.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cl\c++\share\industry.cpp -o CMakeFiles\share.dir\industry.cpp.s
+CMakeFiles/share.dir/domain/industry.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/domain/industry.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\domain\industry.cpp -o CMakeFiles\share.dir\domain\industry.cpp.s
 
-CMakeFiles/share.dir/ShareData.cpp.obj: CMakeFiles/share.dir/flags.make
-CMakeFiles/share.dir/ShareData.cpp.obj: ../ShareData.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/share.dir/ShareData.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\ShareData.cpp.obj -c C:\cl\c++\share\ShareData.cpp
+CMakeFiles/share.dir/service/QueryService.cpp.obj: CMakeFiles/share.dir/flags.make
+CMakeFiles/share.dir/service/QueryService.cpp.obj: ../service/QueryService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/share.dir/service/QueryService.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\service\QueryService.cpp.obj -c F:\workspace\github\c-plus\share\service\QueryService.cpp
 
-CMakeFiles/share.dir/ShareData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/ShareData.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\cl\c++\share\ShareData.cpp > CMakeFiles\share.dir\ShareData.cpp.i
+CMakeFiles/share.dir/service/QueryService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/service/QueryService.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\service\QueryService.cpp > CMakeFiles\share.dir\service\QueryService.cpp.i
 
-CMakeFiles/share.dir/ShareData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/ShareData.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\cl\c++\share\ShareData.cpp -o CMakeFiles\share.dir\ShareData.cpp.s
+CMakeFiles/share.dir/service/QueryService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/service/QueryService.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\service\QueryService.cpp -o CMakeFiles\share.dir\service\QueryService.cpp.s
+
+CMakeFiles/share.dir/service/MapService.cpp.obj: CMakeFiles/share.dir/flags.make
+CMakeFiles/share.dir/service/MapService.cpp.obj: ../service/MapService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/share.dir/service/MapService.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\share.dir\service\MapService.cpp.obj -c F:\workspace\github\c-plus\share\service\MapService.cpp
+
+CMakeFiles/share.dir/service/MapService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/share.dir/service/MapService.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\workspace\github\c-plus\share\service\MapService.cpp > CMakeFiles\share.dir\service\MapService.cpp.i
+
+CMakeFiles/share.dir/service/MapService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/share.dir/service/MapService.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\workspace\github\c-plus\share\service\MapService.cpp -o CMakeFiles\share.dir\service\MapService.cpp.s
 
 # Object files for target share
 share_OBJECTS = \
 "CMakeFiles/share.dir/main.cpp.obj" \
-"CMakeFiles/share.dir/MyUtils.cpp.obj" \
-"CMakeFiles/share.dir/share.cpp.obj" \
-"CMakeFiles/share.dir/industry.cpp.obj" \
-"CMakeFiles/share.dir/ShareData.cpp.obj"
+"CMakeFiles/share.dir/utils/MyUtils.cpp.obj" \
+"CMakeFiles/share.dir/domain/share.cpp.obj" \
+"CMakeFiles/share.dir/domain/industry.cpp.obj" \
+"CMakeFiles/share.dir/service/QueryService.cpp.obj" \
+"CMakeFiles/share.dir/service/MapService.cpp.obj"
 
 # External object files for target share
 share_EXTERNAL_OBJECTS =
 
 share.exe: CMakeFiles/share.dir/main.cpp.obj
-share.exe: CMakeFiles/share.dir/MyUtils.cpp.obj
-share.exe: CMakeFiles/share.dir/share.cpp.obj
-share.exe: CMakeFiles/share.dir/industry.cpp.obj
-share.exe: CMakeFiles/share.dir/ShareData.cpp.obj
+share.exe: CMakeFiles/share.dir/utils/MyUtils.cpp.obj
+share.exe: CMakeFiles/share.dir/domain/share.cpp.obj
+share.exe: CMakeFiles/share.dir/domain/industry.cpp.obj
+share.exe: CMakeFiles/share.dir/service/QueryService.cpp.obj
+share.exe: CMakeFiles/share.dir/service/MapService.cpp.obj
 share.exe: CMakeFiles/share.dir/build.make
 share.exe: CMakeFiles/share.dir/linklibs.rsp
 share.exe: CMakeFiles/share.dir/objects1.rsp
 share.exe: CMakeFiles/share.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\cl\c++\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable share.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable share.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\share.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +169,6 @@ CMakeFiles/share.dir/clean:
 .PHONY : CMakeFiles/share.dir/clean
 
 CMakeFiles/share.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\cl\c++\share C:\cl\c++\share C:\cl\c++\share\cmake-build-debug C:\cl\c++\share\cmake-build-debug C:\cl\c++\share\cmake-build-debug\CMakeFiles\share.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\workspace\github\c-plus\share F:\workspace\github\c-plus\share F:\workspace\github\c-plus\share\cmake-build-debug F:\workspace\github\c-plus\share\cmake-build-debug F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles\share.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/share.dir/depend
 

@@ -7,7 +7,7 @@
 
 #include <string>
 #include <ostream>
-
+// 股票类
 using namespace std;
 class share {
 private:

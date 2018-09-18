@@ -8,7 +8,7 @@ using namespace std;
 #ifndef SHARE_INDUSTRY_H
 #define SHARE_INDUSTRY_H
 
-
+// 行业类
 class industry {
 private:
     string industryCategoryCode; // 行业类别代码

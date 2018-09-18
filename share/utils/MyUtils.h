@@ -12,6 +12,14 @@ using namespace std;
 
 #ifndef SHARE_FILEUTILS_H
 #define SHARE_FILEUTILS_H
+/**
+*
+* @tparam T 生成对象的类型
+* @tparam F 生成对象的策略
+* @param filePath
+* @param func
+* @return
+*/
 class MyUtils {
 public:
     string readTextFile(string file) {

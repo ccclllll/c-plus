@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\cl\c++\share
+CMAKE_SOURCE_DIR = F:\workspace\github\c-plus\share
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\cl\c++\share\cmake-build-debug
+CMAKE_BINARY_DIR = F:\workspace\github\c-plus\share\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\cl\c++\share\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"H:\CLion 2018.2.3\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cl\c++\share\cmake-build-debug\CMakeFiles C:\cl\c++\share\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\cl\c++\share\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\workspace\github\c-plus\share\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -122,86 +122,59 @@ share/fast:
 	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/build
 .PHONY : share/fast
 
-MyUtils.obj: MyUtils.cpp.obj
+domain/industry.obj: domain/industry.cpp.obj
 
-.PHONY : MyUtils.obj
-
-# target to build an object file
-MyUtils.cpp.obj:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/MyUtils.cpp.obj
-.PHONY : MyUtils.cpp.obj
-
-MyUtils.i: MyUtils.cpp.i
-
-.PHONY : MyUtils.i
-
-# target to preprocess a source file
-MyUtils.cpp.i:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/MyUtils.cpp.i
-.PHONY : MyUtils.cpp.i
-
-MyUtils.s: MyUtils.cpp.s
-
-.PHONY : MyUtils.s
-
-# target to generate assembly for a file
-MyUtils.cpp.s:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/MyUtils.cpp.s
-.PHONY : MyUtils.cpp.s
-
-ShareData.obj: ShareData.cpp.obj
-
-.PHONY : ShareData.obj
+.PHONY : domain/industry.obj
 
 # target to build an object file
-ShareData.cpp.obj:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/ShareData.cpp.obj
-.PHONY : ShareData.cpp.obj
+domain/industry.cpp.obj:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/industry.cpp.obj
+.PHONY : domain/industry.cpp.obj
 
-ShareData.i: ShareData.cpp.i
+domain/industry.i: domain/industry.cpp.i
 
-.PHONY : ShareData.i
+.PHONY : domain/industry.i
 
 # target to preprocess a source file
-ShareData.cpp.i:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/ShareData.cpp.i
-.PHONY : ShareData.cpp.i
+domain/industry.cpp.i:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/industry.cpp.i
+.PHONY : domain/industry.cpp.i
 
-ShareData.s: ShareData.cpp.s
+domain/industry.s: domain/industry.cpp.s
 
-.PHONY : ShareData.s
+.PHONY : domain/industry.s
 
 # target to generate assembly for a file
-ShareData.cpp.s:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/ShareData.cpp.s
-.PHONY : ShareData.cpp.s
+domain/industry.cpp.s:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/industry.cpp.s
+.PHONY : domain/industry.cpp.s
 
-industry.obj: industry.cpp.obj
+domain/share.obj: domain/share.cpp.obj
 
-.PHONY : industry.obj
+.PHONY : domain/share.obj
 
 # target to build an object file
-industry.cpp.obj:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/industry.cpp.obj
-.PHONY : industry.cpp.obj
+domain/share.cpp.obj:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/share.cpp.obj
+.PHONY : domain/share.cpp.obj
 
-industry.i: industry.cpp.i
+domain/share.i: domain/share.cpp.i
 
-.PHONY : industry.i
+.PHONY : domain/share.i
 
 # target to preprocess a source file
-industry.cpp.i:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/industry.cpp.i
-.PHONY : industry.cpp.i
+domain/share.cpp.i:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/share.cpp.i
+.PHONY : domain/share.cpp.i
 
-industry.s: industry.cpp.s
+domain/share.s: domain/share.cpp.s
 
-.PHONY : industry.s
+.PHONY : domain/share.s
 
 # target to generate assembly for a file
-industry.cpp.s:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/industry.cpp.s
-.PHONY : industry.cpp.s
+domain/share.cpp.s:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/domain/share.cpp.s
+.PHONY : domain/share.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -230,32 +203,86 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-share.obj: share.cpp.obj
+service/MapService.obj: service/MapService.cpp.obj
 
-.PHONY : share.obj
+.PHONY : service/MapService.obj
 
 # target to build an object file
-share.cpp.obj:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/share.cpp.obj
-.PHONY : share.cpp.obj
+service/MapService.cpp.obj:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/MapService.cpp.obj
+.PHONY : service/MapService.cpp.obj
 
-share.i: share.cpp.i
+service/MapService.i: service/MapService.cpp.i
 
-.PHONY : share.i
+.PHONY : service/MapService.i
 
 # target to preprocess a source file
-share.cpp.i:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/share.cpp.i
-.PHONY : share.cpp.i
+service/MapService.cpp.i:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/MapService.cpp.i
+.PHONY : service/MapService.cpp.i
 
-share.s: share.cpp.s
+service/MapService.s: service/MapService.cpp.s
 
-.PHONY : share.s
+.PHONY : service/MapService.s
 
 # target to generate assembly for a file
-share.cpp.s:
-	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/share.cpp.s
-.PHONY : share.cpp.s
+service/MapService.cpp.s:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/MapService.cpp.s
+.PHONY : service/MapService.cpp.s
+
+service/QueryService.obj: service/QueryService.cpp.obj
+
+.PHONY : service/QueryService.obj
+
+# target to build an object file
+service/QueryService.cpp.obj:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/QueryService.cpp.obj
+.PHONY : service/QueryService.cpp.obj
+
+service/QueryService.i: service/QueryService.cpp.i
+
+.PHONY : service/QueryService.i
+
+# target to preprocess a source file
+service/QueryService.cpp.i:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/QueryService.cpp.i
+.PHONY : service/QueryService.cpp.i
+
+service/QueryService.s: service/QueryService.cpp.s
+
+.PHONY : service/QueryService.s
+
+# target to generate assembly for a file
+service/QueryService.cpp.s:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/service/QueryService.cpp.s
+.PHONY : service/QueryService.cpp.s
+
+utils/MyUtils.obj: utils/MyUtils.cpp.obj
+
+.PHONY : utils/MyUtils.obj
+
+# target to build an object file
+utils/MyUtils.cpp.obj:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/utils/MyUtils.cpp.obj
+.PHONY : utils/MyUtils.cpp.obj
+
+utils/MyUtils.i: utils/MyUtils.cpp.i
+
+.PHONY : utils/MyUtils.i
+
+# target to preprocess a source file
+utils/MyUtils.cpp.i:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/utils/MyUtils.cpp.i
+.PHONY : utils/MyUtils.cpp.i
+
+utils/MyUtils.s: utils/MyUtils.cpp.s
+
+.PHONY : utils/MyUtils.s
+
+# target to generate assembly for a file
+utils/MyUtils.cpp.s:
+	$(MAKE) -f CMakeFiles\share.dir\build.make CMakeFiles/share.dir/utils/MyUtils.cpp.s
+.PHONY : utils/MyUtils.cpp.s
 
 # Help Target
 help:
@@ -266,21 +293,24 @@ help:
 	@echo ... edit_cache
 	@echo ... share
 	@echo ... rebuild_cache
-	@echo ... MyUtils.obj
-	@echo ... MyUtils.i
-	@echo ... MyUtils.s
-	@echo ... ShareData.obj
-	@echo ... ShareData.i
-	@echo ... ShareData.s
-	@echo ... industry.obj
-	@echo ... industry.i
-	@echo ... industry.s
+	@echo ... domain/industry.obj
+	@echo ... domain/industry.i
+	@echo ... domain/industry.s
+	@echo ... domain/share.obj
+	@echo ... domain/share.i
+	@echo ... domain/share.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... share.obj
-	@echo ... share.i
-	@echo ... share.s
+	@echo ... service/MapService.obj
+	@echo ... service/MapService.i
+	@echo ... service/MapService.s
+	@echo ... service/QueryService.obj
+	@echo ... service/QueryService.i
+	@echo ... service/QueryService.s
+	@echo ... utils/MyUtils.obj
+	@echo ... utils/MyUtils.i
+	@echo ... utils/MyUtils.s
 .PHONY : help
 
 

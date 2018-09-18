@@ -1,1 +1,1 @@
-CMakeFiles/share.dir/main.cpp.obj CMakeFiles/share.dir/MyUtils.cpp.obj CMakeFiles/share.dir/share.cpp.obj CMakeFiles/share.dir/industry.cpp.obj CMakeFiles/share.dir/ShareData.cpp.obj
+CMakeFiles/share.dir/main.cpp.obj CMakeFiles/share.dir/utils/MyUtils.cpp.obj CMakeFiles/share.dir/domain/share.cpp.obj CMakeFiles/share.dir/domain/industry.cpp.obj CMakeFiles/share.dir/service/QueryService.cpp.obj CMakeFiles/share.dir/service/MapService.cpp.obj

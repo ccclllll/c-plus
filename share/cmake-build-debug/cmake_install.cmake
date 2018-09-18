@@ -1,4 +1,4 @@
-# Install script for directory: C:/cl/c++/share
+# Install script for directory: F:/workspace/github/c-plus/share
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/cl/c++/share/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "F:/workspace/github/c-plus/share/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
